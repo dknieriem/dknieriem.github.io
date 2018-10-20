@@ -35,7 +35,7 @@ header {
 	width: auto;
 
 	@media(min-width:600px){
-		background-color: none;
+		background-color: initial;
 	}
 
 	logo {
@@ -69,7 +69,7 @@ footer {
 }
 
 background {
-	background-color: rgba(0, 102, 153, 0.6);
+	background-color: {{ site.background_color }};
 	grid-column: 1;
 	grid-row: 1/3;
 	z-index: -1;
