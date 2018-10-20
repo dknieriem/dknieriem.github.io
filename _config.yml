@@ -1,7 +1,8 @@
-title: Don Knieriem | Web Developer | Philly | Gritty Fan
+title: Don Knieriem | Web Developer
 author: dknieriem
 email: donald.knieriem@gmail.com
-description: I am a web developer in Philadelphia. Would you like some PHP, SASS? Javascript? Well, only if it's ES6. Please don't ask for jQuery.
+description: Philly | Web Dev | Gritty Fan
+logo: face-trans.png
 github_username: dknieriem
 show_excerpts: true
 theme: jekyll-theme-minimal
