@@ -4,4 +4,4 @@ email: donald.knieriem@gmail.com
 description: I am a web developer in Philadelphia. Would you like some PHP, SASS? Javascript? Well, only if it's ES6. Please don't ask for jQuery.
 github_username: dknieriem
 show_excerpts: true
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
