@@ -7,6 +7,12 @@
 img[role='logo']{
 	border-radius: 50%;
 	border: 7px solid #FFFFFF;
+
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
 }
 
 .wrapper {
@@ -39,6 +45,10 @@ header {
 	}
 
 	logo {
+
+		margin: 0 -7px;
+		position: relative;
+
 		@media(min-width:600px){
 			display: flex;
 		}
