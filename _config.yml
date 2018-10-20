@@ -7,3 +7,5 @@ github_username: dknieriem
 show_excerpts: true
 theme: jekyll-theme-minimal
 background_color: rgba(0, 102, 153, 0.6)
+collections:
+  - projects
