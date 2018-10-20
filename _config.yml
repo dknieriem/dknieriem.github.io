@@ -2,7 +2,8 @@ title: Don Knieriem  Web Developer
 author: dknieriem
 email: donald.knieriem@gmail.com
 description: Philly | Web Dev | Gritty Fan
-logo: face-trans.png
+logo: /assets/img/face-trans.png
 github_username: dknieriem
 show_excerpts: true
 theme: jekyll-theme-minimal
+background_color: rgba(0, 102, 153, 0.6)
