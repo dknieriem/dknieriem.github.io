@@ -1,0 +1,12 @@
+
+<section class="projects">
+<h2> Projects </h2>
+<ul class="projects-list">
+{% for p in site.projects %}
+<li class="project">
+<h3>{{ p.title }}</h3>
+{{ p.content }}
+</li>
+{% endfor %}
+</ul>
+</section>
