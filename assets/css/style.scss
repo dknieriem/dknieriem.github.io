@@ -25,10 +25,10 @@ img[role='logo']{
 header {
 	grid-column: 1;
 	grid-row: 1;
+	padding: 1rem;
 	text-align: center;
 	//fix default styles
 	float: none;
-	padding: 1rem;
 	position: static;
 	width: auto;
 
@@ -45,12 +45,23 @@ section {
 
 	grid-column: 2;
 	grid-row: 1 / 3;
+
+	//fix default styles
+	float: none;
+	width: auto;
 }
 
 footer {
 	grid-column: 1;
 	grid-row: 2;
 	padding: 1rem;
+
+	//fix default styles
+	bottom: unset;
+	float: none;
+	position: static;
+	width: auto;
+
 }
 
 background {
