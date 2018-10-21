@@ -6,11 +6,7 @@
 		<li class="project">
 		<h3>{{ p.title }}</h3>
 		{% if p.tags %}
-			<ul class="project-tags">
-				{% for t in p.tags %}
-					<li> {{ t }}</li>
-				{% endfor %}
-			</ul>
+			<em>{{ p.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
 
 		{% if p.link %} <a href="{{ p.link }}">View Live</a> {% endif %}

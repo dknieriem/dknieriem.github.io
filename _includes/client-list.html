@@ -5,12 +5,8 @@
 	{% for c in site.clients %}
 		<li class="client">
 		<h3>{{ c.title }}</h3>
-		{% if c.tags | size > 0 %}
-			<ul class="client-tags">
-				{% for t in c.tags %}
-					<li> {{ t }}</li>
-				{% endfor %}
-			</ul>
+		{% if c.tags %}
+			<em>{{ c.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
 		{% if c.screenshot %}
 			<img class="screenshot" src="{{ page.screenshot }}" title="{{ page.title }} screenshot">
@@ -20,7 +16,7 @@
 		{% if c.repo %} <a href="{{ c.repo }}">View Repository</a> {% endif %}
 		
 		{{ c.content }}
-		
+
 		</li>
 	{% endfor %}
 </ul>
