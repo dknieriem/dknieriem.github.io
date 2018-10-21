@@ -2,14 +2,22 @@
 <section class="projects">
 <h2> Projects </h2>
 <ul class="projects-list">
-{% for p in site.projects %}
-<li class="project">
-<h3>{{ p.title }}</h3>
-{% if p.url | size != 0 %} <a href="{{ p.url }}">View Live</a> {% endif %}
-{% if p.url | size != 0 and p.repo | size != 0%} | {% endif %}
-{% if p.repo | size != 0 %} <a href="{{ p.repo }}">View Repository</a> {% endif %}
-{{ p.content }}
-</li>
-{% endfor %}
+	{% for p in site.projects %}
+		<li class="project">
+		<h3>{{ p.title }}</h3>
+		{% if p.tags | size > 0 %}
+			<ul class="project-tags">
+				{% for t in p.tags %}
+					<li> {{ t }}</li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+
+		{% if p.link | size != 0 %} <a href="{{ p.link }}">View Live</a> {% endif %}
+		{% if p.link | size != 0 and p.repo | size != 0%} | {% endif %}
+		{% if p.repo | size != 0 %} <a href="{{ p.repo }}">View Repository</a> {% endif %}
+		{{ p.content }}
+		</li>
+	{% endfor %}
 </ul>
 </section>

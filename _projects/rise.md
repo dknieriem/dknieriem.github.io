@@ -2,7 +2,7 @@
 layout: project
 title: RISE Visualizer
 description: A D3 team compatibility visualization
-url:
+link:
 repo: https://github.com/dknieriem/RISE-Score-Visualizer
 tags: js, d3
 ---

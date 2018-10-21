@@ -2,7 +2,7 @@
 layout: project
 title: Containment
 description: A C#/Unity game
-url:
+link:
 repo: https://github.com/dknieriem/containment
 tags: csharp, unity3d
 ---
