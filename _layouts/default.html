@@ -43,9 +43,15 @@
       </header>
       <section>
 
-      {{ content }}
-      {% include projects-list.html %}
-      
+      <article class="content">
+        {{ content }}
+      </article>
+      <article class="projects">
+        {% include projects-list.html %}
+      </article>
+      <article class="clients">
+        {% include client-list.html %}
+      </article>
       </section>
       <footer>
         {% if site.github.is_project_page %}
