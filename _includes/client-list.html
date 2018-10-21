@@ -5,11 +5,11 @@
 	{% for c in site.clients %}
 		<li class="client">
 		<h3>{{ c.title }}</h3>
-		{% if c.tags %}
-			<em>{{ c.tags | join: "</em> - <em>" }}</em>
-		{% endif %}
 		{% if c.screenshot %}
 			<img class="screenshot" src="{{ c.screenshot }}" title="{{ c.title }} screenshot">
+		{% endif %}
+		{% if c.tags %}
+			<em>{{ c.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
 		<p>
 		{% if c.link %} <a href="{{ c.link }}">View Live</a> {% endif %}

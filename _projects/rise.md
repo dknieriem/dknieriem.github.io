@@ -2,7 +2,9 @@
 layout: project
 title: RISE Visualizer
 description: A D3 team compatibility visualization
+link: https://rise-score-visualizer.herokuapp.com/
 repo: https://github.com/dknieriem/RISE-Score-Visualizer
+screenshot: rsv-screenshot.png
 tags: js d3
 ---
 

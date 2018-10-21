@@ -5,6 +5,9 @@
 	{% for p in site.projects %}
 		<li class="project">
 		<h3>{{ p.title }}</h3>
+		{% if p.screenshot %}
+			<img class="screenshot" src="{{ p.screenshot }}" title="{{ p.title }} screenshot">
+		{% endif %}
 		{% if p.tags %}
 			<em>{{ p.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
