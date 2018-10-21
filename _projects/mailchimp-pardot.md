@@ -2,9 +2,10 @@
 layout: project
 title: MailChimp/Pardot Translator
 description: A Sublime Text 3 Plugin
-link:
 repo: https://github.com/dknieriem/MailChimp-To-Pardot-Translator
-tags: python, sublimetext
+tags: python sublimetext
 ---
 
-# Stuff
+A simple Sublime Text 3 Plugin used to convert MailChimp email templates for use in Pardot. 
+
+Provides settings hook to allow custom tag translation by the user.
