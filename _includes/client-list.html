@@ -9,7 +9,7 @@
 			<em>{{ c.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
 		{% if c.screenshot %}
-			<img class="screenshot" src="{{ page.screenshot }}" title="{{ page.title }} screenshot">
+			<img class="screenshot" src="{{ c.screenshot }}" title="{{ c.title }} screenshot">
 		{% endif %}
 		<p>
 		{% if c.link %} <a href="{{ c.link }}">View Live</a> {% endif %}
