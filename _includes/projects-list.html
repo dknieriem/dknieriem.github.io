@@ -8,11 +8,12 @@
 		{% if p.tags %}
 			<em>{{ p.tags | join: "</em> - <em>" }}</em>
 		{% endif %}
-
+		<p>
 		{% if p.link %} <a href="{{ p.link }}">View Live</a> {% endif %}
 		{% if p.link and p.repo %} | {% endif %}
 		{% if p.repo %} <a href="{{ p.repo }}">View Repository</a> {% endif %}
 		{{ p.content }}
+		</p>
 		</li>
 	{% endfor %}
 </ul>

@@ -11,12 +11,13 @@
 		{% if c.screenshot %}
 			<img class="screenshot" src="{{ page.screenshot }}" title="{{ page.title }} screenshot">
 		{% endif %}
+		<p>
 		{% if c.link %} <a href="{{ c.link }}">View Live</a> {% endif %}
 		{% if c.link and c.repo %} | {% endif %}
 		{% if c.repo %} <a href="{{ c.repo }}">View Repository</a> {% endif %}
 		
 		{{ c.content }}
-
+		</p>
 		</li>
 	{% endfor %}
 </ul>
