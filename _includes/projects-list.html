@@ -5,8 +5,9 @@
 {% for p in site.projects %}
 <li class="project">
 <h3>{{ p.title }}</h3>
-{% if p.url != '' %} <a href="{{ p.url }}">View Live</a> {% endif %}
-{% if p.repo != '' %} <a href="{{ p.repo }}">View Repository</a> {% endif %}
+{% if p.url | size != 0 %} <a href="{{ p.url }}">View Live</a> {% endif %}
+{% if p.url | size != 0 and p.repo | size != 0%} | {% endif %}
+{% if p.repo | size != 0 %} <a href="{{ p.repo }}">View Repository</a> {% endif %}
 {{ p.content }}
 </li>
 {% endfor %}
