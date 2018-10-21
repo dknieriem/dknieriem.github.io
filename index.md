@@ -2,4 +2,6 @@
 
 ---
 
-# Wait right there while I find something interesting to show you...
+# Work
+
+Listed below are personal projects and freelance clients. 
