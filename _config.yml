@@ -6,7 +6,7 @@ logo: /assets/img/face-trans.png
 github_username: dknieriem
 show_excerpts: true
 theme: jekyll-theme-minimal
-background_color: rgba(0, 102, 153, 0.6)
+background_color: rgb(255,255,255) #rgba(0, 102, 153, 0.6)
 collections:
   - projects
   - clients
