@@ -1,8 +1,10 @@
+{% assign projects = site.projects | where: "visibility", "public" %}
 
+{% if projects.size > 0 %}
 <section class="projects">
 <h2> Projects </h2>
 <ul class="projects-list">
-	{% for p in site.projects %}
+	{% for p in projects %}
 		<li class="project">
 		<h3>{{ p.title }}</h3>
 		{% if p.screenshot %}
@@ -21,3 +23,4 @@
 	{% endfor %}
 </ul>
 </section>
+{% endif %}

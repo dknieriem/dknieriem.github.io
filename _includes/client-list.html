@@ -1,8 +1,10 @@
+{% assign clients = site.clients | where: "visibility", "public" %}
 
+{% if clients.size > 0 %}
 <section class="projects">
 <h2> Clients </h2>
 <ul class="client-list">
-	{% for c in site.clients %}
+	{% for c in clients %}
 		<li class="client">
 		<h3>{{ c.title }}</h3>
 		{% if c.screenshot %}
@@ -22,3 +24,4 @@
 	{% endfor %}
 </ul>
 </section>
+{% endif %}
