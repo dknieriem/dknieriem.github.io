@@ -3,7 +3,7 @@ layout: client
 title: True Girl
 description: 
 link: https://mytruegirl.com
-screenshot: /assets/img/bvsc2c-screenshot.png
+screenshot: /assets/img/truegirl-screenshot.png
 tags: WordPress js
 visibility: public
 ---

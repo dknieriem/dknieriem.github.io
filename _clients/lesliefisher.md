@@ -3,7 +3,7 @@ layout: client
 title: Leslie Fisher
 description: 
 link: https://lesliefisher.com
-screenshot: /assets/img/bvsc2c-screenshot.png
+screenshot: /assets/img/lf-screenshot.png
 tags: ExpressionEngine PHP
 visibility: public
 ---
