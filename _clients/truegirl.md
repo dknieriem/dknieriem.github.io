@@ -4,8 +4,8 @@ title: True Girl
 description: 
 link: https://mytruegirl.com
 screenshot: /assets/img/truegirl-screenshot.png
-tags: WordPress js
+tags: WordPress PHP SASS JS 
 visibility: public
 ---
 
-For BVS Coast 2 Coast, a fun, user-friendly blog was needed. They got a custom Wordpress blog, along with extra love in the form of custom plugins, social media integration, and a unique theme that helped them map their progress across the United States.
+True Girl came with a new design to refresh their site. We gave them a fully responsive WordPress site with interactive multimedia, integrated event registration with location-based filtering, and consistent design with added functionality.

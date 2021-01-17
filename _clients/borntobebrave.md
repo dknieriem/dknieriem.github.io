@@ -4,8 +4,8 @@ title: Born to Be Brave
 description: 
 link: https://borntobebrave.com
 screenshot: /assets/img/btbb-screenshot.png
-tags: WordPress js
+tags: WordPress PHP SASS JS
 visibility: public
 ---
 
-For BVS Coast 2 Coast, a fun, user-friendly blog was needed. They got a custom Wordpress blog, along with extra love in the form of custom plugins, social media integration, and a unique theme that helped them map their progress across the United States.
+Born To Be Brave had a professional design ready to bring to life. We gave it life via a custom WordPress theme and added function to form with event calendars and signup forms that matched the exciting design.

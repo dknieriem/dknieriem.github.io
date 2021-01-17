@@ -5,6 +5,7 @@ description: Philly Web Developer
 logo: /assets/img/face.jpg
 github_username: dknieriem
 repository: dknieriem/dknieriem.github.io
+linkedin: https://www.linkedin.com/in/don-knieriem/
 show_excerpts: true
 theme: jekyll-theme-minimal
 background_color: rgb(255,255,255) #rgba(0, 102, 153, 0.6)

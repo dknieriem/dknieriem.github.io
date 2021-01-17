@@ -4,7 +4,7 @@ title: National Food Sales
 description: 
 link: http://www.nationalfoodsales.net/
 screenshot: /assets/img/nfs-screenshot.png
-tags: WordPress js
+tags: WordPress PHP CSS JS
 visibility: hidden
 ---
 

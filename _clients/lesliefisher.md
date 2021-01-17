@@ -4,8 +4,8 @@ title: Leslie Fisher
 description: 
 link: https://lesliefisher.com
 screenshot: /assets/img/lf-screenshot.png
-tags: ExpressionEngine PHP
+tags: ExpressionEngine PHP Foundation JQuery
 visibility: public
 ---
 
-For BVS Coast 2 Coast, a fun, user-friendly blog was needed. They got a custom Wordpress blog, along with extra love in the form of custom plugins, social media integration, and a unique theme that helped them map their progress across the United States.
+Leslie Fisher needed a way to solicit and display feedback for her events, without overcomplicating an already full site. We gave her an elegantly programmed solution to give visitors the info they need without cluttering the site.
