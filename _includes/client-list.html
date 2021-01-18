@@ -11,7 +11,7 @@
 			<img class="screenshot" src="{{ c.screenshot }}" title="{{ c.title }} screenshot">
 		{% endif %}
 		{% if c.tags %}
-			<em>{{ c.tags | join: "</em> - <em>" }}</em>
+			<p><small>tags: <span class="tag">{{ c.tags | join: "</span> - <span class="tag">" }}</span></small></p>
 		{% endif %}
 		<p>
 		{% if c.link %} <a href="{{ c.link }}">View Live</a> {% endif %}
