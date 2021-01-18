@@ -3,7 +3,7 @@ layout: client
 title: Born to Be Brave
 description: 
 link: https://borntobebrave.com
-screenshot: /assets/img/btbb-screenshot.png
+screenshot: /assets/img/btbb-screenshot.jpg
 tags: WordPress PHP SASS JS
 visibility: public
 ---
