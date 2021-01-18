@@ -1,0 +1,24 @@
+{% assign gists = site.gists | where: "visibility", "public" %}
+
+{% if gists.size > 0 %}
+<section class="gists">
+<h2> Gists </h2>
+<p>Helpful gists I've written during development</p>
+<ul class="gist-list">
+	{% for g in gists %}
+		<li class="gist">
+		<h3>{{ g.title }}</h3>
+		{% if g.tags %}
+			<p><small>tags: <span class="tag">{{ g.tags | join: "</span> - <span class="tag">" }}</span></small></p>
+		{% endif %}
+
+		{% if g.link %} <p><a href="{{ g.link }}">View Live</a></p> {% endif %}
+
+		{{ g.content }}
+
+		{% if g.embed %}<script src="{{ g.link}}.js"></script>{% endif %}
+		</li>
+	{% endfor %}
+</ul>
+</section>
+{% endif %}
