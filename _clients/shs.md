@@ -1,6 +1,6 @@
 ---
 layout: client
-title: Seniors Home Specialist
+title: Seniors Home Specialists
 description: 
 link: http://seniorshomespecialists.com/
 screenshot: /assets/img/shs-screenshot.jpg
