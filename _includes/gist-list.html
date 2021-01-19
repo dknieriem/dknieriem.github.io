@@ -9,7 +9,11 @@
 		<li class="gist">
 		<h3>{{ g.title }}</h3>
 		{% if g.tags %}
-			<p><small>tags: <span class="tag">{{ g.tags | join: "</span> - <span class="tag">" }}</span></small></p>
+			<p><small>tags: 
+				{% for tag in g.tags %}
+				<span class="tag">{{ tag }}</span>
+				{% endfor %}
+			</small></p>
 		{% endif %}
 
 		{% if g.link %} <p><a href="{{ g.link }}">View Live</a></p> {% endif %}
