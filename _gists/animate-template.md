@@ -4,7 +4,7 @@ title: Ad Template
 description: An Adobe Animate 2020 template for Google Display Ads
 link: https://gist.github.com/dknieriem/a1160ae630b6c6d3f6087263122e98df
 embed: <script src="https://gist.github.com/dknieriem/a1160ae630b6c6d3f6087263122e98df.js"></script>
-tags: HTML 'Adobe Animate' 'Google Display Ad'
+tags: HTML "Adobe Animate" "Google Display Ad"
 visibility: public
 ---
 
