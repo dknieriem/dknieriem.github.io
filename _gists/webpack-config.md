@@ -8,4 +8,4 @@ tags: StorybookJS Twig NodeJS Webpack
 visibility: public
 ---
 
-Storybook expected twig references using relative paths, while Timber twig expected them using './' notation. By using twigjs-loader (npm install -d twigjs-loader), as well as registering aliases for the appropriate directories, in storybook's webpack config, both Timber twig and storybook will accept paths beginning with an alias (see included navbar.twig).
+Storybook expected twig references using relative paths, while Timber twig expected them using './' notation. By using twigjs-loader (`npm install -d twigjs-loader`), as well as registering aliases for the appropriate directories, in storybook's webpack config, both Timber twig and storybook will accept paths beginning with an alias (see included navbar.twig).
