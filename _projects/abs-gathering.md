@@ -3,7 +3,7 @@ layout: project
 title: ABS President's Gathering
 description: Drupal website
 link: https://abspresidentsgathering.com
-screenshot: /assets/img/truegirl-screenshot.jpg
+screenshot: /assets/img/abspg-screenshot.jpg
 tags: Drupal twig SASS JS 
 visibility: public
 ---
